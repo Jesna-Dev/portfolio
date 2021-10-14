@@ -138,7 +138,7 @@ const workExperiences = {
     {
       role: "Software Developer",
       company: "Nexibit Solutions Pvt. Ltd.",
-      companylogo: require("./assets/images/nexi.jfif"),
+      companylogo: require("./assets/images/nexibit.jpg"),
       date: "July 2020 – Present",
       descBullets: [
         "Identifying areas for modification in existing programs and subsequently developing these modifications.",
@@ -169,7 +169,7 @@ const bigProjects = {
     {
       image: require("./assets/images/shipdone.png"),
       projectName: "ShipDone",
-      projectDesc: "Shipdone is one of the best online food delivery service providers across the USA. Shipdone is an American restaurant aggregator and an online food delivery service. Customers can order food through our mobile app or the web. They provide two types of delivery methods, delivery, and pickup. Using delivery customers can get ordered items at your doorstep within a short time period. In pickup, customers can order food in the usual way and grab your order from the restaurant",
+      projectDesc: "Shipdone is one of the best online food delivery service providers across the USA.Customers can order food through our mobile app or the web.Using delivery customers can get ordered items at your doorstep within a short time period. In pickup, customers can order food in the usual way and grab your order from the restaurant",
       footerLink: [
         {
           name: "Visit Website",
