@@ -175,7 +175,7 @@ const bigProjects = {
           name: "Visit Website",
           url: "http://saayahealth.com/"
         }
-        //  you can add extra buttons here.
+        //you can add extra buttons here.
       ]
     },
     {
