@@ -27,7 +27,6 @@ const socialMediaLinks = {
   github: "https://github.com/Jesna-Dev",
   linkedin: "https://www.linkedin.com/in/jesna-k-elizabeth-jolly/",
   gmail: "jesnakelizabethjolly@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
   instagram: "https://www.instagram.com/ted.eliz/",
   stackoverflow: "https://stackoverflow.com/users/17119170/jesna-k-elizabeth-jolly",
   // Instagram, Twitter and Kaggle are also supported in the links!
@@ -70,10 +69,6 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-react"
     },
     {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
       skillName: "sql-database",
       fontAwesomeClassname: "fas fa-database"
     },
@@ -96,19 +91,12 @@ const educationInfo = {
       logo: require("./assets/images/santhigiri.png"),
       subHeader: " Bachelor of Computer Application",
       duration: "March 2020",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
     },
     {
       schoolName: "St.Sebastin Higher Secondary School Vazhithala,Thodupuzha",
       logo: require("./assets/images/stsebastin.png"),
       subHeader: "Higher Secondary",
       duration: "March 2017",
-      
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     },
     {
       schoolName: "St.Sebastin Higher Secondary School Vazhithala,Thodupuzha",
@@ -116,8 +104,7 @@ const educationInfo = {
       subHeader: "SSLC",
       duration: "March 2015",
       
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+     
     }
   ]
 };
@@ -151,12 +138,12 @@ const workExperiences = {
     {
       role: "Software Developer",
       company: "Nexibit Solutions Pvt. Ltd.",
-      companylogo: require("./assets/images/nexi.jpg"),
+      companylogo: require("./assets/images/nexi.jfif"),
       date: "July 2020 – Present",
       descBullets: [
         "Identifying areas for modification in existing programs and subsequently developing these modifications.",
         "Researching, designing, implementing, and managing software programs",
-        " Testing and evaluating new programs",
+        "Testing and evaluating new programs",
         
       ]
     },
@@ -176,13 +163,13 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: " Projects",
+  subtitle: "SOME OF THE PROJECT THAT I WORKED IN MY COMPANY",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/shipdone.png"),
+      projectName: "ShipDone",
+      projectDesc: "Shipdone is one of the best online food delivery service providers across the USA. Shipdone is an American restaurant aggregator and an online food delivery service. Customers can order food through our mobile app or the web. They provide two types of delivery methods, delivery, and pickup. Using delivery customers can get ordered items at your doorstep within a short time period. In pickup, customers can order food in the usual way and grab your order from the restaurant",
       footerLink: [
         {
           name: "Visit Website",
@@ -194,7 +181,7 @@ const bigProjects = {
     {
       image: require("./assets/images/nextuLogo.webp"),
       projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectDesc: "Manage your activities, improvise and collabrate.We know that you would like simplify your activities. That’s why we created the platform to manage activities efficientlySelfaie is simple and easy to use Simplifies your daily activties Improves collabration with your contacts Improves productivity",
       footerLink: [
         {
           name: "Visit Website",
@@ -210,56 +197,35 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
+  title: emoji(" Certifications 🏆 "),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    " Certifications and Some Cool Stuff that I have done !",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "NPTEL Online Certificate On Cloud computing ",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
+        "Cloud computing is a scalable services consumption and delivery platform that provides on-demand computing service for shared pool of resources, namely servers, storage, networking, software, database, applications etc., over the Internet",
+      image: require("./assets/images/nptel.png"),
       footerLink: [
         {
           name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+          url: "https://drive.google.com/file/d/15dT8BrYf1DIqXk8tvV5z9gVDk1pvXuKI/view?usp=sharing"
         },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "Google Ads Skillshop On Fundamentals of digital marketing",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
+        "Gaining the skills of  digitalisation plans speeding up globally to improve people’s lives, businesses now need strong marketing practitioners to reach a digital audience and promote their offerings",
+      image: require("./assets/images/googlead.png"),
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        }
+          name: "Certification",
+          url: "https://drive.google.com/file/d/1dgSGof0S5e_4qnjpg7OlErGVf1Q2xPSt/view?usp=sharing"
+        },
       ]
     },
-
-    {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
-      ]
-    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -283,7 +249,7 @@ const podcastSection = {
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
+  title: emoji("Contact Me 📧"),
   email_address: "jesnakelizabethjolly@gmail.com"
 };
 
