@@ -1,0 +1,13 @@
+- Open PORTFOLIO folder in VS Code
+
+- open TERMINAL 
+
+- Run command 'npm start'
+
+- Go to Localhost:3000
+
+- Make changes and commit all changes 
+
+- See changes in Vercel app 
+
+- Done
