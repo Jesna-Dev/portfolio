@@ -12,7 +12,7 @@ const illustration = {
 
 const greeting = {
   username: "Jesna K Elizabeth Jolly",
-  title: "Hi all, I'm Jesna K Elizabeth Jolly",
+  title: "Hi all, I'm Jesna ",
   subTitle: emoji(
     "A passionate Full Stack Software Developer  having an experience of building Web applications with JavaScript and Reactjs ."
   ),
@@ -151,7 +151,7 @@ const workExperiences = {
     {
       role: "Software Developer",
       company: "Nexibit Solutions Pvt. Ltd.",
-      companylogo: require("./assets/images/nexibit.webp"),
+      companylogo: require("./assets/images/nexi.jpg"),
       date: "July 2020 – Present",
       descBullets: [
         "Identifying areas for modification in existing programs and subsequently developing these modifications.",
