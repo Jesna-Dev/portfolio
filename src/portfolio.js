@@ -215,7 +215,7 @@ const achievementSection = {
       ]
     },
     {
-      title: "Google Ads Skillshop Certification on Digital marketing",
+      title: "Google Ads Skillshop Certification on  Digital marketing",
       subtitle:
         "Gaining the skills of  digitalisation plans speeding up globally to improve people’s lives, businesses now need strong marketing practitioners to reach a digital audience and promote their offerings",
       image: require("./assets/images/googlead.png"),
