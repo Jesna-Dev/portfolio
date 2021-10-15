@@ -25,7 +25,7 @@ const greeting = {
 
 const socialMediaLinks = {
   github: "https://github.com/Jesna-Dev",
-  linkedin: "https://www.linkedin.com/in/jesna-k-elizabeth-jolly/",
+  linkedin: "https://in.linkedin.com/in/jesna-k-elizabeth-jolly-6a3416201",
   gmail: "jesnakelizabethjolly@gmail.com",
   instagram: "https://www.instagram.com/ted.eliz/",
   stackoverflow: "https://stackoverflow.com/users/17119170/jesna-k-elizabeth-jolly",
