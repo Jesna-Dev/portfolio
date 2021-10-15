@@ -167,9 +167,9 @@ const bigProjects = {
   subtitle: "SOME OF THE PROJECT THAT I WORKED IN MY COMPANY",
   projects: [
     {
-      image: require("./assets/images/shipdone.png"),
+      image: require("./assets/images/shipdone.jpg"),
       projectName: "ShipDone",
-      projectDesc: "Shipdone is one of the best online food delivery service providers across the USA.Customers can order food through our mobile app or the web.Using delivery customers can get ordered items at your doorstep within a short time period. In pickup, customers can order food in the usual way and grab your order from the restaurant",
+      projectDesc: "Shipdone is one of the best online food delivery service providers across the USA.Customers can order food through our mobile app or the web.Using delivery customers can get ordered items at your doorstep within a short time period.They provide two types of delivery methods, delivery, and pickup.",
       footerLink: [
         {
           name: "Visit Website",
@@ -179,9 +179,9 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Manage your activities, improvise and collabrate.We know that you would like simplify your activities. That’s why we created the platform to manage activities efficientlySelfaie is simple and easy to use Simplifies your daily activties Improves collabration with your contacts Improves productivity",
+      image: require("./assets/images/selfaie.jpg"),
+      projectName: "Selfaie",
+      projectDesc: "Selfaie is simple and easy to use Simplifies your daily activties Improves collabration with your contacts Improves productivity,Manage your activities .Selfaie is a platform to manage activities efficiently Get started with Selfaie for streamlining your daily activities and collabrations with your contacts. Get Selfaie",
       footerLink: [
         {
           name: "Visit Website",
@@ -203,7 +203,7 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "NPTEL Online Certificate On Cloud computing ",
+      title: "NPTEL Online Certification On Cloud computing ",
       subtitle:
         "Cloud computing is a scalable services consumption and delivery platform that provides on-demand computing service for shared pool of resources, namely servers, storage, networking, software, database, applications etc., over the Internet",
       image: require("./assets/images/nptel.png"),
@@ -215,7 +215,7 @@ const achievementSection = {
       ]
     },
     {
-      title: "Google Ads Skillshop On Fundamentals of digital marketing",
+      title: "Google Ads Skillshop Certification on Digital marketing",
       subtitle:
         "Gaining the skills of  digitalisation plans speeding up globally to improve people’s lives, businesses now need strong marketing practitioners to reach a digital audience and promote their offerings",
       image: require("./assets/images/googlead.png"),
