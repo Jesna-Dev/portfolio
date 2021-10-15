@@ -1,3 +1,3 @@
-< 👧 A portfolio of myself which showcase my experiences, educations etc 💻 />
+< 👧 A portfolio of myself which showcases my experiences, education etc 💻 />
 
 🌎 https://portfolio-jesna-dev.vercel.app/
