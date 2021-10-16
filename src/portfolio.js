@@ -14,7 +14,7 @@ const greeting = {
   username: " Jesna",
   title: "Hi all, I'm Jesna K Elizabeth Jolly",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer  having an experience of building Web applications with JavaScript and Reactjs ."
+    "A passionate Full Stack Software Developer  having an experience of building Web applications with JavaScript and React Js ."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1NR8BwdPuSAZi-nzAiCl8O73wWkdbF1sK/view?usp=sharing", // Set to empty to hide the button
@@ -38,7 +38,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I Do",
-  subTitle: "CRAZY FULL STACkkK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web applications"),
@@ -164,18 +164,18 @@ const openSource = {
 
 const bigProjects = {
   title: " Projects",
-  subtitle: "SOME OF THE PROJECT THAT I WORKED IN MY COMPANY",
+  subtitle: " PROJECT THAT I HAVE WORKED IN MY COMPANY",
   projects: [
     {
       image: require("./assets/images/shipdone.jpg"),
       projectName: "ShipDone",
-      projectDesc: "Shipdone is one of the best online food delivery service providers across the USA.Customers can order food through our mobile app or the web.Using delivery customers can get ordered items at your doorstep within a short time period.They provide two types of delivery methods, delivery, and pickup.",
+      projectDesc: "Shipdone is one of the best online food delivery service providers across the USA.Customers can order food through our mobile app or the web.Customers can get ordered items at your doorstep within a short time period.We provide two types of delivery methods, delivery, and pickup.",
       
     },
     {
       image: require("./assets/images/selfaie.jpg"),
       projectName: "Selfaie",
-      projectDesc: "Selfaie is simple and easy to use Simplifies your daily activties Improves collabration with your contacts Improves productivity,Manage your activities .Selfaie is a platform to manage activities efficiently Get started with Selfaie for streamlining your daily activities and collabrations with your contacts. Get Selfaie",
+      projectDesc: "Selfaie is simple and easy to use  it Simplifies your daily activties Improves collabration with your contacts Improves productivity,Manage your activities .Selfaie is a platform to manage activities efficiently .Get started with Selfaie for streamlining your daily activities and collabrations with your contacts.",
       
     }
   ],
@@ -188,7 +188,7 @@ const bigProjects = {
 const achievementSection = {
   title: emoji(" Certifications 🏆 "),
   subtitle:
-    " Certifications and Some Cool Stuff that I have done !",
+    " Certifications that I have done !",
 
   achievementsCards: [
     {
