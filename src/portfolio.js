@@ -170,24 +170,13 @@ const bigProjects = {
       image: require("./assets/images/shipdone.jpg"),
       projectName: "ShipDone",
       projectDesc: "Shipdone is one of the best online food delivery service providers across the USA.Customers can order food through our mobile app or the web.Using delivery customers can get ordered items at your doorstep within a short time period.They provide two types of delivery methods, delivery, and pickup.",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
-        }
-        //you can add extra buttons here.
-      ]
+      
     },
     {
       image: require("./assets/images/selfaie.jpg"),
       projectName: "Selfaie",
       projectDesc: "Selfaie is simple and easy to use Simplifies your daily activties Improves collabration with your contacts Improves productivity,Manage your activities .Selfaie is a platform to manage activities efficiently Get started with Selfaie for streamlining your daily activities and collabrations with your contacts. Get Selfaie",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://nextu.se/"
-        }
-      ]
+      
     }
   ],
   display: true // Set false to hide this section, defaults to true
