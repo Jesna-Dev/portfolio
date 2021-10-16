@@ -19,7 +19,8 @@ $blogCardTitleColor: #262626;
 $textColorDark: #ffffff;
 
 // toggle switch colors
-$toggleCheck: #2196f3;
+$toggleCheck: 
+#bc8aeb;
 $toggleSwitchSliderBG: #ccc;
 
 // githubRepo specific colors
@@ -48,18 +49,12 @@ $darkBoxShadow: #d9dbdf;
 $darkBoxShadow2: #ffffff;
 
 // linear gradients
-$experienceCardBlurredDivLG: linear-gradient(
-  rgba(0, 0, 0, 0.4),
-  rgba(0, 0, 0, 0.2)
-);
-$experienceCardBannerLG: linear-gradient(
-  rgba(0, 0, 0, 0.7),
-  rgba(0, 0, 0, 0.5)
-);
+$experienceCardBlurredDivLG: #000;
+$experienceCardBannerLG: #000;
 
 // borders
 $progressBarBackground: rgb(243, 239, 239);
-$lightBorder1: rgba(211, 211, 211, 0.397);
+$lightBorder1: $buttonColor;
 $educationCardBorder: #a9a7f9;
 
 // hovers
@@ -69,8 +64,8 @@ $headerHoverBG: #f4f4f4;
 $contactDetailHoverTS: #b5b5b5;
 
 // misc backgrounds
-$progressBarSpanBG: #aaa5ff;
-$iconBackground: #333;
+$progressBarSpanBG: $buttonColor;
+$iconBackground: rgb(5, 4, 4);
 $appHeaderBG: #282c34;
 
 // misc colors
