@@ -4,7 +4,6 @@ import "./Header.scss";
 import ToggleSwitch from "../ToggleSwitch/ToggleSwitch";
 import StyleContext from "../../contexts/StyleContext";
 import {
-  greeting,
   workExperiences,
   skillsSection,
   openSource,
