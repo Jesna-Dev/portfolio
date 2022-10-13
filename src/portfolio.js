@@ -41,9 +41,7 @@ const skillsSection = {
   title: 'What I Do',
   subTitle: 'CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK',
   skills: [
-    emoji(
-      '⚡ Develop highly interactive Front end / User Interfaces for your web applications'
-    ),
+    emoji('⚡ Develop highly interactive Front end / User Interfaces'),
     emoji('⚡ Integration of third party services such as Firebase')
   ],
 
@@ -113,16 +111,16 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: 'Programming',
-      progressPercentage: '90%'
+      Stack: 'Frontend / Design', //Insert stack or technology you have experience in
+      progressPercentage: '90%' //Insert relative proficiency in percentage
     },
     {
-      Stack: 'Frontend/Design', //Insert stack or technology you have experience in
-      progressPercentage: '80%' //Insert relative proficiency in percentage
+      Stack: 'Programming',
+      progressPercentage: '75%'
     },
     {
       Stack: 'Backend',
-      progressPercentage: '70%'
+      progressPercentage: '60%'
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -135,7 +133,7 @@ const workExperiences = {
   experience: [
     {
       role: 'React Developer',
-      company: 'NAVALT INC8',
+      company: 'NAVALT | KINFRA, Kochi',
       companylogo: require('./assets/images/navalt-logo.png'),
       date: '2021 – Present',
       descBullets: [
@@ -188,7 +186,7 @@ const bigProjects = {
       image: require('./assets/images/milaha.jpg'),
       projectName: 'Milaha analytics platform',
       projectDesc:
-        'Utilization of Deck, Weather Predictions, and Visualization is done. by using technologies like DVA, Redux, Rest API'
+        'Utilization of Deck, Weather Predictions, and Visualization is done by using technologies like DVA, Redux, Rest API'
     },
     {
       image: require('./assets/images/aramco.jpg'),
@@ -210,13 +208,13 @@ const bigProjects = {
       image: require('./assets/images/shipdone.jpg'),
       projectName: 'ShipDone',
       projectDesc:
-        'Shipdone is one of the best online food delivery service providers across the USA.Customers can order food through our mobile app or the web.Customers can get ordered items at your doorstep within a short time period.We provide two types of delivery methods, delivery, and pickup.'
+        'Shipdone is one of the best online food delivery service providers across the USA. Customers can order food through our mobile app or the web. Customers can get ordered items at your doorstep within a short time period.We provide two types of delivery methods, delivery, and pickup.'
     },
     {
       image: require('./assets/images/selfaie.jpg'),
       projectName: 'Selfaie',
       projectDesc:
-        'Selfaie is simple and easy to use  it Simplifies your daily activties Improves collabration with your contacts Improves productivity,Manage your activities .Selfaie is a platform to manage activities efficiently .Get started with Selfaie for streamlining your daily activities and collabrations with your contacts.'
+        'Selfaie is simple and easy to use  it Simplifies your daily activties Improves collabration with your contacts Improves productivity, Manage your activities .Selfaie is a platform to manage activities efficiently.'
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -227,7 +225,7 @@ const bigProjects = {
 
 const achievementSection = {
   title: emoji(' Certifications 🏆 '),
-  subtitle: ' Certifications that I have done !',
+  subtitle: `Certifications I've done!`,
 
   achievementsCards: [
     {

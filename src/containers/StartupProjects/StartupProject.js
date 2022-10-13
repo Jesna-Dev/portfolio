@@ -23,13 +23,16 @@ export default function StartupProject() {
     <Fade bottom duration={1000} distance="20px">
       <div className="main" id="projects">
         <div>
-          <h1 className="skills-heading">{bigProjects.title}</h1>
+          <h1 className="skills-heading" style={{ margin: 0 }}>
+            {bigProjects.title}
+          </h1>
           <p
             className={
               isDark
                 ? 'dark-mode project-subtitle'
                 : 'subTitle project-subtitle'
-            }>
+            }
+            style={{ marginTop: 0 }}>
             {bigProjects.subtitle}
           </p>
 

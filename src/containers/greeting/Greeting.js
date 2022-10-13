@@ -35,7 +35,8 @@ export default function Greeting() {
                   isDark
                     ? 'dark-mode greeting-text-p'
                     : 'greeting-text-p subTitle'
-                }>
+                }
+                style={{ lineHeight: '22px' }}>
                 {greeting.subTitle}
               </p>
               <SocialMedia />

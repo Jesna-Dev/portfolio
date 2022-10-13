@@ -1,43 +1,57 @@
-import React from "react";
-import "./AchievementCard.scss";
+import './AchievementCard.scss'
 
-export default function AchievementCard({cardInfo, isDark}) {
+import Button from '../../components/button/Button'
+import React from 'react'
+
+export default function AchievementCard({ cardInfo, isDark }) {
   function openUrlInNewTab(url) {
     if (!url) {
-      return;
+      return
     }
-    var win = window.open(url, "_blank");
-    win.focus();
+    var win = window.open(url, '_blank')
+    win.focus()
   }
 
   return (
-    <div className={isDark ? "dark-mode certificate-card" : "certificate-card"}>
+    <div
+      className={isDark ? 'dark-mode certificate-card' : 'certificate-card'}
+      style={{ display: 'flex', flexDirection: 'column' }}>
       <div className="certificate-image-div">
-        <img src={cardInfo.image} alt="PWA" className="card-image"></img>
+        <img
+          src={cardInfo.image}
+          alt="PWA"
+          className="card-image"
+          style={{
+            width: '250px',
+            height: '250px',
+            objectFit: 'cover',
+            borderRadius: '12px'
+          }}
+        />
       </div>
       <div className="certificate-detail-div">
-        <h5 className={isDark ? "dark-mode card-title" : "card-title"}>
+        <h5
+          className={isDark ? 'dark-mode card-title' : 'card-title'}
+          style={{ textAlign: 'left', marginTop: '28px' }}>
           {cardInfo.title}
         </h5>
-        <p className={isDark ? "dark-mode card-subtitle" : "card-subtitle"}>
+        <p
+          className={isDark ? 'dark-mode card-subtitle' : 'card-subtitle'}
+          style={{ textAlign: 'left' }}>
           {cardInfo.description}
         </p>
       </div>
-      <div className="certificate-card-footer">
+      <div
+        className="certificate-card-footer"
+        style={{ display: 'flex', justifyContent: 'start', marginTop: 'auto' }}>
         {cardInfo.footer.map((v, i) => {
           return (
-            <span
-              key={i}
-              className={
-                isDark ? "dark-mode certificate-tag" : "certificate-tag"
-              }
-              onClick={() => openUrlInNewTab(v.url)}
-            >
-              {v.name}
-            </span>
-          );
+            <>
+              <Button key={i} text="Certification" newTab={true} href={v.url} />
+            </>
+          )
         })}
       </div>
     </div>
-  );
+  )
 }
