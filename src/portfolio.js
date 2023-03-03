@@ -14,10 +14,10 @@ const greeting = {
   username: ' Jesna',
   title: "Hi, I'm Jesna K Elizabeth Jolly",
   subTitle: emoji(
-    'A passionate Full Stack Software Developer  having an experience of building Web applications with JavaScript and React Js .'
+    'A passionate front-end developer  having an experience of building web applications with JavaScript and React Js .'
   ),
   resumeLink:
-    'https://drive.google.com/file/d/1NR8BwdPuSAZi-nzAiCl8O73wWkdbF1sK/view?usp=sharing', // Set to empty to hide the button
+    'https://drive.google.com/drive/u/1/folders/1-WagdwxMc4VKR0wbu2_w97Ek_f1rBf5o', // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 }
 
@@ -25,7 +25,7 @@ const greeting = {
 
 const socialMediaLinks = {
   github: 'https://github.com/Jesna-Dev',
-  linkedin: 'https://in.linkedin.com/in/jesna-k-elizabeth-jolly-6a3416201',
+  linkedin: 'https://www.linkedin.com/in/jesna-k-elizabeth-jolly/',
   gmail: 'jesnakelizabethjolly@gmail.com',
   instagram: 'https://www.instagram.com/ted.eliz/',
   stackoverflow:
@@ -73,7 +73,9 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: 'firebase',
       fontAwesomeClassname: 'fas fa-fire'
-    }
+    },
+    
+    
   ],
   display: true // Set false to hide this section, defaults to true
 }
@@ -116,7 +118,7 @@ const techStack = {
     },
     {
       Stack: 'Programming',
-      progressPercentage: '75%'
+      progressPercentage: '65%'
     },
     {
       Stack: 'Backend',
@@ -168,7 +170,7 @@ const openSource = {
 
 const bigProjects = {
   title: ' Projects',
-  subtitle: `Projects that I've worked with`,
+  subtitle: `Projects that I've worked with`, 
   projects: [
     {
       image: require('./assets/images/msc-analytics-platform.jpg'),
@@ -241,14 +243,14 @@ const achievementSection = {
       ]
     },
     {
-      title: 'Google Ads Skillshop Certification on  Digital marketing',
+      title: 'UI/UX Design Specialization by Great Learning',
       subtitle:
-        'Gaining the skills of  digitalisation plans speeding up globally to improve people’s lives, businesses now need strong marketing practitioners to reach a digital audience and promote their offerings',
-      image: require('./assets/images/googlead.png'),
+        'User Experience (UX) and User Interface (UI) designs are essential in web and app development, It help us to  improve  skills in Design Thinking, High-Fidelity Wireframing, Prototyping. ',
+      image: require('./assets/images/geartLearning.png'),
       footerLink: [
         {
           name: 'Certification',
-          url: 'https://drive.google.com/file/d/1dgSGof0S5e_4qnjpg7OlErGVf1Q2xPSt/view?usp=sharing'
+          url: 'https://drive.google.com/file/d/1I7lfyqnnISAz2ckA6YrcYRGr1m49gcE6/view'
         }
       ]
     }
